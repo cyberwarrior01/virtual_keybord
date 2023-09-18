@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main{
+    border-radius: 10px;
+    height: 50%;
+    width: 80%;
+    background-color: #fff;
+    /* overflow: hidden; */
+}
+.functionKey{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.funckey{
+    cursor: pointer;
+    width: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #333;
+    height: 30px;
+    margin: 0px 2px;
+    transition: all ease-in 0.1s;
+
+}
+.funckey:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+
+.abvnum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: purple; */
+}
+.abovenum{
+    width: 65px ;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0px 2px;
+    color: #fff;
+    border-radius: 10px;
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+}
+.abovenum:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+.bcspace{
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 2px ;
+    color: #fff;
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+
+}
+.bcspace:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+.normalbtn{
+    width: 65px ;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin:2px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+
+
+}
+.normalbtn:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+.alphabets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab{
+    width: 80px;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0px 2px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+
+
+}
+.tab:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+
+.capslk_enter{
+    width: 120px ;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    margin:2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+}
+.capslk_enter:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+.shift{
+    width: 140px ;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    margin:2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+
+
+}
+.shift:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+.spacebar{
+    width: 415px ;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    margin:2px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+
+}
+.spacebar:hover{
+    background-color: #111;
+    transform: scaleY(0.9);
+}
+#primaryElem{
+    width: 75%;
+
+}
+#secondaryElem{
+    width: 23%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* gap: 2px; */
+    grid-row: 5/7;
+}
